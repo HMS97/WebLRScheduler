@@ -34,7 +34,8 @@ from WebLRScheduler import WebLRScheduler
 ```
 2. Replace your existing LR scheduler with an instance of the InteractiveLRScheduler class.
 ```
-scheduler = InteractiveLRScheduler(optimizer, lr_lambda, data_loader, total_epochs)
+scheduler = InteractiveLRScheduler(optimizer, lr_lambda, data_loader, total_iteration)
 
 ```
 3. Run your training script as usual. The web interface will be accessible at http://127.0.0.1:5000.
+4. 
